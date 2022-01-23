@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(172, 227, 198, 0.7),rgba(172, 227, 198, 0.7)),url(images/banner1.png); /*1st color is top 2nd color bottom*/
+    background-image: linear-gradient(rgba(172, 227, 198, 0.7),rgba(172, 227, 198, 0.7)),url(https://github.com/jobeinbobein/jobeinbobein.github.io/images/banner1.png); /*1st color is top 2nd color bottom*/
     background-position: center;
     background-size: auto;
     position: relative;
