@@ -184,8 +184,6 @@ article{
     justify-content: space-evenly;
 }
 
-
-
 .abt-me{
     margin: 0px 50px 5px 50px;
 }
@@ -221,6 +219,10 @@ article{
     color: #fff;
     background: lightcoral;
 }
+.ctc-mail{
+    margin: 10px;
+}
+
 
 @media (max-width:700px){
     .abt-me{
@@ -233,8 +235,6 @@ article{
         margin: auto;
     }
 }
-
-
 
 
 
