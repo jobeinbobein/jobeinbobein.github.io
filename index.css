@@ -89,19 +89,20 @@ nav{
     display: block;
     margin: auto;
     margin-top:50px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #252424;
 }
 
 @media (max-width:700px){
     .container{
         display: block;
+
     }
     
 }
 
 .custom-shape-divider-bottom-1645289361 {
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -111,7 +112,7 @@ nav{
 }
 
 .custom-shape-divider-bottom-1645289361 svg {
-    position: relative;
+    position: absolute;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
@@ -179,10 +180,11 @@ article{
 /* ABOUT ME*/
 
 .abt-me {
-
     display: flex;
     justify-content: space-evenly;
 }
+
+
 
 .abt-me{
     margin: 0px 50px 5px 50px;
@@ -219,14 +221,21 @@ article{
     color: #fff;
     background: lightcoral;
 }
+
 @media (max-width:700px){
     .abt-me{
-        display: block;
+    display: block;
     }
     .abt-me3{
-        margin-top: 10px;
+    margin: auto;
+    }
+    .abt-me3 .dl-btn{
+        margin: auto;
     }
 }
+
+
+
 
 
 /*--CONTACT US--*/
