@@ -112,7 +112,7 @@ nav{
 }
 
 .custom-shape-divider-bottom-1645289361 svg {
-    position: absolute;
+    position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
