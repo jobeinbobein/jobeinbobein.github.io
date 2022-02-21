@@ -64,6 +64,17 @@ nav{
     color: #fff;
     text-decoration: none;
 }
+@media (max-width:700px){
+    .header{
+       display: block; 
+    }
+    .scroll-to-top{
+        bottom: 0rem;
+        right: 0rem;
+        font-size: 10px;
+     }
+    
+}
 
 .col-1{
     width: 300px;
@@ -80,6 +91,16 @@ nav{
     margin-top:50px;
     margin-bottom: 45px;
     color: #252424;
+}
+
+@media (max-width:700px){
+    .container{
+        display: block;
+
+    }
+    .custom-shape-divider-bottom-1645289361{
+        display: none;
+    }
 }
 
 .custom-shape-divider-bottom-1645289361 {
@@ -103,6 +124,7 @@ nav{
     fill: #252424;
 }
 
+/*MY PROJECTS*/
 
 article{
     background: #252424;
@@ -140,6 +162,18 @@ article{
 .code-spn a{
     text-decoration: none;
 }
+
+@media (max-width:700px){
+    .row-1b h1{
+        font-size: px;
+    }
+    iframe{
+        height: 300px;
+        width: 400px;
+    }
+}
+
+/* ABOUT ME*/
 
 .abt-me {
     min-height: 100vh;
@@ -184,6 +218,20 @@ article{
     color: #fff;
     background: lightcoral;
 }
+
+@media (max-width:700px){
+    .abt-me{
+    display: block;
+    }
+    .abt-me3{
+    margin: auto;
+    }
+    .abt-me3 .dl-btn{
+        margin: auto;
+    }
+}
+
+
 
 
 
