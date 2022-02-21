@@ -89,7 +89,7 @@ nav{
     display: block;
     margin: auto;
     margin-top:50px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #252424;
 }
 
@@ -98,13 +98,11 @@ nav{
         display: block;
 
     }
-    .custom-shape-divider-bottom-1645289361{
-        display: none;
-    }
+    
 }
 
 .custom-shape-divider-bottom-1645289361 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -123,6 +121,12 @@ nav{
 .custom-shape-divider-bottom-1645289361 .shape-fill {
     fill: #252424;
 }
+@media (max-width:700px){
+    .custom-shape-divider-bottom-1645289361{
+        display: none;
+    }
+}
+
 
 /*MY PROJECTS*/
 
@@ -176,12 +180,10 @@ article{
 /* ABOUT ME*/
 
 .abt-me {
-    min-height: 100vh;
+
     display: flex;
     justify-content: space-evenly;
 }
-
-
 
 .abt-me{
     margin: 0px 50px 5px 50px;
@@ -218,21 +220,14 @@ article{
     color: #fff;
     background: lightcoral;
 }
-
 @media (max-width:700px){
     .abt-me{
-    display: block;
+        display: block;
     }
     .abt-me3{
-    margin: auto;
-    }
-    .abt-me3 .dl-btn{
-        margin: auto;
+        margin-top: 10px;
     }
 }
-
-
-
 
 
 /*--CONTACT US--*/
